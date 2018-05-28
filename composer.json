@@ -1,0 +1,22 @@
+{
+    "name": "josephson/module-extension-attributes",
+    "description": "Extension attributes study",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "josephson.eduardo@googlemail.com",
+            "name": "Josephson Eduardo"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Josephson\\ExtensionAttributes\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
